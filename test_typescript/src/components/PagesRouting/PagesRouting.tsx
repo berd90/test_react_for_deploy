@@ -1,6 +1,9 @@
 
 import React from 'react'
-import {BrowserRouter, Route, Routes, Navigate, NavLink} from "react-router-dom";
+import {Route, Routes, Navigate} from "react-router-dom";
+import PageIndex from "../PageIndex/PageIndex";
+import PageSecond from "../PageSecond/PageSecond";
+import PageNotFound from "../PageNotFound/PageNotFound";
 
 
 export default function PagesRouting () {
